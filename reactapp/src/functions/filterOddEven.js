@@ -20,7 +20,12 @@ export const filterEven=(...arr)=>
     });
     return ans;
 }
-export const generaterandomList=(n=7)=>
+export const generateRandomList=(n=7)=>
 {
-    l
+    let res=[];
+    for(let i=0;i<n;i++)
+    {
+        res.push(Math.floor(Math.random()*100));
+    }
+    return res;
 }
